@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik:ital@1&display=swap');
+
+*{
+    bottom: 0;
+    padding: 0;
+}
+body{
+    /* width: 100vw;
+    height: 100vh; */
+    background-image: url("https://source.unsplash.com//100x100/?moon");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rebeccapurple; */
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 246px;
+}
+#IN{
+    color: white;
+}
+.login{
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+    padding: 10px 30px 30px 30px; 
+    border-radius: 10px;
+    box-shadow: -1px -1px 1px 1px gray, 1px 1px 1px 1px gray;
+}
+.heading{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: bold;
+}
+.user input
+{
+   background-color: transparent; 
+   border-radius: 20px;  
+   padding: 5px 30px; 
+   border: 2px solid grey;
+   margin: 10px 0px;
+   position: relative;
+}
+#US{
+    position: absolute;
+    top: 86px;
+    right: 42px;
+}
+.pass input{
+    background-color: transparent; 
+    border-radius: 20px;  
+    padding: 5px 30px; 
+    border: 2px solid grey;
+    margin-top: 10px;
+    position: relative;
+}
+#PS{
+    position: absolute;
+    top: 135px;
+    right: 42px;
+}
+.Forget{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.Forget p{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    color:burlywood ;
+}
+.Forget a{
+    position: absolute;
+    left: 131px;
+    top: 14px;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}
+.Forget a:hover{
+    color: burlywood;
+}
+.btn button{
+    width: 226px;
+    border-radius: 10px;
+    padding: 2px 0px;
+}
+.btn button:hover{
+    color: blue;
+}
+.register{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.register p {
+ font-family: 'Roboto', sans-serif;
+ color: burlywood;
+}
+.register a{
+    position: absolute;
+    left: 80px;
+    top: 45px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.register a:hover{
+    color: burlywood; 
+}
